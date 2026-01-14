@@ -1,0 +1,265 @@
+html, body {
+  background-color: black
+}
+
+
+
+
+h1.textheader{
+    position: absolute;
+    top: -20px;
+    left: 80px;
+
+    
+    color: rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+.header{
+    margin: 0;
+    background-size: cover;
+    height: 1.5cm;
+    width: 100%;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.Logo1{
+    position: absolute;
+    top: 3px;
+    z-index: 3;
+
+    size: absolute;
+    width: 120px;
+}
+
+.gradient-border-element {
+  position: relative;
+  width: 1980px;
+  height: 150px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #636161, rgb(255, 255, 255), #ffffff, #202020, #474949, #f7f7f7);
+  background-size: 300% 300%;
+  animation: gradient-shift 6s ease infinite;
+}
+
+.gradient-border-element::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  z-index: 0;
+}
+
+.gradient-border-element span {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .gradient-border-element::before {
+    background: #000000;
+  }
+  
+  .gradient-border-element span {
+    color: #ffffff;
+  }
+}
+
+.gradient-border-element::before, .gradient-border-element{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.treybackground{
+    size: cover;
+    width: 100%;
+    height: 500px;
+
+    filter: brightness(35%);
+    filter: blur(100%);
+    z-index: 1;
+}
+
+.treybackground{
+    position: relative;
+    top: 100px;
+}
+
+.mainbottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.mainbottom{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    z-index: 3;
+}
+
+.aboutusheader{
+    z-index: 3;
+    position: absolute;
+    bottom: 200px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.WTTreyTok{
+  z-index: 0;
+  position: absolute;
+
+}
+
+.TreySearch{
+  width: 600px; 
+  height: 15px;
+  background-color: lightblue;
+  border: 1px solid black; 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 35px;
+}
+
+.TreySearch{
+  position: relative;
+  bottom: 37px;
+  left: 50px;
+}
+
+div.vidnum{
+    position: relative;
+    bottom: 20px;
+}
+
+div.vidnum{
+    width: 700px; 
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black; 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+
+
+
+div.vidnum{
+  bottom: -50px;
+}
+
+.TreyTokScroll{
+  scrollbar-base-color: #000000;
+  scrollbar-color: #000000;
+}
+
+.treytrey{
+  width: 150px;
+  height: 75px;
+}
+
+.Azerbaijanianflag{
+  position: absolute;
+  top: 55px;
+  right: 35px;
+
+
+  margin: 0;
+  padding: 0;
+  width: 75px;
+}
+
+.profile{
+  top: 35px;
+  left: 210px;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.profilebox{
+    position: absolute;
+    top: 150px;
+    lefT: 180px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 108, 108);
+    opacity: 0.5;
+    border-radius: 25px;
+
+    width: 360px;
+    height: 500px;
+
+  background-color: #333;
+  border: 1px solid transparent;
+  box-shadow: inset 0 0 10px 5px #ffffff;
+
+
+    z-index: 4;
+}
+
+.profilename{
+  z-index: 5;
+  color: white;
+  position: absolute;
+  top: 280px;
+  left: 326px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tofu{
+  position: relative;
+  bottom: 400px;
+  left: 300px;
+  width: 120px;
+  z-index: 6;
+  border-radius: 365px;
+
+}
+
+.tofutext{
+  color: white;
+  z-index: 5;
+  position: relative;
+  bottom: 190px;
+  left: 286px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.tofubio{
+  color: white;
+  z-index:rgb(255, 255, 255);
+  position: relative;
+  bottom: 180px
+}
